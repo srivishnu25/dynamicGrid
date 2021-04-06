@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Details</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="./product.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="product-container">
+          <div id="images">
+            <img id="product-view">
+          </div>
+          <div id="product-details">
+              <h1 id="product-name"></h1>
+              <h4 id="product-brand"></h4>
+              <h3 id="product-price"><span id="price-details"></span></h3>
+              <div id="description">
+                  <h3 id="descrition-heading"></h3>
+                  <p id="description-para"></p>
+              </div>
+              <div id="product-preview">
+                  <h3 id="product-preview-heading"></h3>
+                  <div id="preview-image-container">
+                      <img id="img0" class="active">
+                      <img id="img1" class="active">
+                      <img id="img2" class="active">
+                      <img id="img3" class="active">
+                      <img id="img4" class="active">
+                  </div>
+              </div>
+              <button id="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <script src="./product.js"></script>
+    </body>
+</html>
